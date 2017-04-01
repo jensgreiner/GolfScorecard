@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name" translatable="false">Golf Scorecard</string>
+    <string name="golf_course_name">Rock Creek Golf Course</string>
+    <string name="logo_golf_course">Logo Rock Creek Golf Course</string>
+    <string name="button_reset">Reset</string>
+    <string name="hole">Hole</string>
+    <string name="par">Par</string>
+    <string name="title_player">Player</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
 </resources>
