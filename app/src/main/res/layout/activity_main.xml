@@ -158,7 +158,8 @@
                     android:gravity="center"
                     android:text="0"
                     android:textAlignment="center"
-                    android:textSize="30sp" />
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -223,6 +224,7 @@
                     android:gravity="center"
                     android:text="0"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -236,7 +238,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="-"
+                        android:text="@string/minus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
 
@@ -245,7 +247,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="+"
+                        android:text="@string/plus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
                 </LinearLayout>
@@ -288,6 +290,7 @@
                     android:gravity="center"
                     android:text="0"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -301,7 +304,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="-"
+                        android:text="@string/minus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
 
@@ -310,7 +313,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="+"
+                        android:text="@string/plus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
                 </LinearLayout>
@@ -353,6 +356,7 @@
                     android:gravity="center"
                     android:text="0"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -366,7 +370,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="-"
+                        android:text="@string/minus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
 
@@ -375,7 +379,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="+"
+                        android:text="@string/plus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
                 </LinearLayout>
@@ -418,6 +422,7 @@
                     android:gravity="center"
                     android:text="0"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -431,7 +436,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="-"
+                        android:text="@string/minus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
 
@@ -440,7 +445,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="+"
+                        android:text="@string/plus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
                 </LinearLayout>
@@ -483,6 +488,7 @@
                     android:gravity="center"
                     android:text="0"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -496,7 +502,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="-"
+                        android:text="@string/minus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
 
@@ -505,7 +511,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="+"
+                        android:text="@string/plus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
                 </LinearLayout>
@@ -548,6 +554,7 @@
                     android:gravity="center"
                     android:text="0"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -561,7 +568,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="-"
+                        android:text="@string/minus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
 
@@ -570,7 +577,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="+"
+                        android:text="@string/plus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
                 </LinearLayout>
@@ -613,6 +620,7 @@
                     android:gravity="center"
                     android:text="0"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -626,7 +634,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="-"
+                        android:text="@string/minus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
 
@@ -635,7 +643,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="+"
+                        android:text="@string/plus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
                 </LinearLayout>
@@ -678,6 +686,7 @@
                     android:gravity="center"
                     android:text="0"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -691,7 +700,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="-"
+                        android:text="@string/minus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
 
@@ -700,7 +709,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="+"
+                        android:text="@string/plus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
                 </LinearLayout>
@@ -743,6 +752,7 @@
                     android:gravity="center"
                     android:text="0"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -756,7 +766,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="-"
+                        android:text="@string/minus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
 
@@ -765,7 +775,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="+"
+                        android:text="@string/plus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
                 </LinearLayout>
@@ -808,6 +818,7 @@
                     android:gravity="center"
                     android:text="0"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -821,7 +832,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="-"
+                        android:text="@string/minus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
 
@@ -830,7 +841,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="+"
+                        android:text="@string/plus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
                 </LinearLayout>
@@ -873,6 +884,7 @@
                     android:gravity="center"
                     android:text="0"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -886,7 +898,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="-"
+                        android:text="@string/minus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
 
@@ -895,7 +907,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="+"
+                        android:text="@string/plus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
                 </LinearLayout>
@@ -938,6 +950,7 @@
                     android:gravity="center"
                     android:text="0"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -951,7 +964,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="-"
+                        android:text="@string/minus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
 
@@ -960,7 +973,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="+"
+                        android:text="@string/plus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
                 </LinearLayout>
@@ -1003,6 +1016,7 @@
                     android:gravity="center"
                     android:text="0"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -1016,7 +1030,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="-"
+                        android:text="@string/minus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
 
@@ -1025,7 +1039,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="+"
+                        android:text="@string/plus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
                 </LinearLayout>
@@ -1068,6 +1082,7 @@
                     android:gravity="center"
                     android:text="0"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -1081,7 +1096,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="-"
+                        android:text="@string/minus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
 
@@ -1090,7 +1105,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="+"
+                        android:text="@string/plus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
                 </LinearLayout>
@@ -1133,6 +1148,7 @@
                     android:gravity="center"
                     android:text="0"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -1146,7 +1162,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="-"
+                        android:text="@string/minus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
 
@@ -1155,7 +1171,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="+"
+                        android:text="@string/plus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
                 </LinearLayout>
@@ -1198,6 +1214,7 @@
                     android:gravity="center"
                     android:text="0"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -1211,7 +1228,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="-"
+                        android:text="@string/minus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
 
@@ -1220,7 +1237,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="+"
+                        android:text="@string/plus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
                 </LinearLayout>
@@ -1263,6 +1280,7 @@
                     android:gravity="center"
                     android:text="0"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -1276,7 +1294,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="-"
+                        android:text="@string/minus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
 
@@ -1285,7 +1303,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="+"
+                        android:text="@string/plus"
                         android:textSize="24sp"
                         tools:ignore="ButtonStyle" />
                 </LinearLayout>
