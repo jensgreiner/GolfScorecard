@@ -63,7 +63,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/courseParTitleTotal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/course_par"
@@ -72,11 +72,11 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView21"
+                android:id="@+id/courseParTotal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="65"
+                android:text="@string/courseParTotalValue"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="48sp" />
@@ -90,7 +90,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView16"
+                android:id="@+id/playerTitleTotal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/title_player"
@@ -99,11 +99,10 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView22"
+                android:id="@+id/playerScoreTotal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="0"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="48sp" />
@@ -193,7 +192,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="1"
+                    android:text="@string/hole1"
                     android:textAlignment="center"
                     android:textColor="#006400"
                     android:textSize="24sp" />
@@ -204,7 +203,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="4"
+                    android:text="@string/par4"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -214,7 +213,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
@@ -234,7 +232,7 @@
                         android:textColor="@color/colorMinus"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        tools:ignore="ButtonStyle" />
+                        tools:ignore="ButtonStyle,NestedWeights" />
 
                     <Button
                         android:id="@+id/buttonPlusHole1"
@@ -263,7 +261,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="2"
+                    android:text="@string/hole2"
                     android:textAlignment="center"
                     android:textColor="#006400"
                     android:textSize="24sp" />
@@ -274,7 +272,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="4"
+                    android:text="@string/par4"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -284,7 +282,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
@@ -304,7 +301,7 @@
                         android:textColor="@color/colorMinus"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        tools:ignore="ButtonStyle" />
+                        tools:ignore="ButtonStyle,NestedWeights" />
 
                     <Button
                         android:id="@+id/buttonPlusHole2"
@@ -333,7 +330,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="3"
+                    android:text="@string/hole3"
                     android:textAlignment="center"
                     android:textColor="#006400"
                     android:textSize="24sp" />
@@ -344,7 +341,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="3"
+                    android:text="@string/par3"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -354,7 +351,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
@@ -374,7 +370,7 @@
                         android:textColor="@color/colorMinus"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        tools:ignore="ButtonStyle" />
+                        tools:ignore="ButtonStyle,NestedWeights" />
 
                     <Button
                         android:id="@+id/buttonPlusHole3"
@@ -403,7 +399,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="4"
+                    android:text="@string/hole4"
                     android:textAlignment="center"
                     android:textColor="#006400"
                     android:textSize="24sp" />
@@ -414,7 +410,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="3"
+                    android:text="@string/par3"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -424,7 +420,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
@@ -444,7 +439,7 @@
                         android:textColor="@color/colorMinus"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        tools:ignore="ButtonStyle" />
+                        tools:ignore="ButtonStyle,NestedWeights" />
 
                     <Button
                         android:id="@+id/buttonPlusHole4"
@@ -473,7 +468,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="5"
+                    android:text="@string/hole5"
                     android:textAlignment="center"
                     android:textColor="#006400"
                     android:textSize="24sp" />
@@ -484,7 +479,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="3"
+                    android:text="@string/par3"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -494,7 +489,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
@@ -514,7 +508,7 @@
                         android:textColor="@color/colorMinus"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        tools:ignore="ButtonStyle" />
+                        tools:ignore="ButtonStyle,NestedWeights" />
 
                     <Button
                         android:id="@+id/buttonPlusHole5"
@@ -543,7 +537,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="6"
+                    android:text="@string/hole6"
                     android:textAlignment="center"
                     android:textColor="#006400"
                     android:textSize="24sp" />
@@ -554,7 +548,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="4"
+                    android:text="@string/par4"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -564,7 +558,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
@@ -584,7 +577,7 @@
                         android:textColor="@color/colorMinus"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        tools:ignore="ButtonStyle" />
+                        tools:ignore="ButtonStyle,NestedWeights" />
 
                     <Button
                         android:id="@+id/buttonPlusHole6"
@@ -613,7 +606,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="7"
+                    android:text="@string/hole7"
                     android:textAlignment="center"
                     android:textColor="#006400"
                     android:textSize="24sp" />
@@ -624,7 +617,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="3"
+                    android:text="@string/par3"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -634,7 +627,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
@@ -654,7 +646,7 @@
                         android:textColor="@color/colorMinus"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        tools:ignore="ButtonStyle" />
+                        tools:ignore="ButtonStyle,NestedWeights" />
 
                     <Button
                         android:id="@+id/buttonPlusHole7"
@@ -683,7 +675,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="8"
+                    android:text="@string/hole8"
                     android:textAlignment="center"
                     android:textColor="#006400"
                     android:textSize="24sp" />
@@ -694,7 +686,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="4"
+                    android:text="@string/par4"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -704,7 +696,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
@@ -724,7 +715,7 @@
                         android:textColor="@color/colorMinus"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        tools:ignore="ButtonStyle" />
+                        tools:ignore="ButtonStyle,NestedWeights" />
 
                     <Button
                         android:id="@+id/buttonPlusHole8"
@@ -753,7 +744,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="9"
+                    android:text="@string/hole9"
                     android:textAlignment="center"
                     android:textColor="#006400"
                     android:textSize="24sp" />
@@ -764,7 +755,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="4"
+                    android:text="@string/par4"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -774,7 +765,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
@@ -794,7 +784,7 @@
                         android:textColor="@color/colorMinus"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        tools:ignore="ButtonStyle" />
+                        tools:ignore="ButtonStyle,NestedWeights" />
 
                     <Button
                         android:id="@+id/buttonPlusHole9"
@@ -823,7 +813,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="10"
+                    android:text="@string/hole10"
                     android:textAlignment="center"
                     android:textColor="#006400"
                     android:textSize="24sp" />
@@ -834,7 +824,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="4"
+                    android:text="@string/par4"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -844,7 +834,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
@@ -864,7 +853,7 @@
                         android:textColor="@color/colorMinus"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        tools:ignore="ButtonStyle" />
+                        tools:ignore="ButtonStyle,NestedWeights" />
 
                     <Button
                         android:id="@+id/buttonPlusHole10"
@@ -893,7 +882,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="11"
+                    android:text="@string/hole11"
                     android:textAlignment="center"
                     android:textColor="#006400"
                     android:textSize="24sp" />
@@ -904,7 +893,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="3"
+                    android:text="@string/par3"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -914,7 +903,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
@@ -934,7 +922,7 @@
                         android:textColor="@color/colorMinus"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        tools:ignore="ButtonStyle" />
+                        tools:ignore="ButtonStyle,NestedWeights" />
 
                     <Button
                         android:id="@+id/buttonPlusHole11"
@@ -963,7 +951,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="12"
+                    android:text="@string/hole12"
                     android:textAlignment="center"
                     android:textColor="#006400"
                     android:textSize="24sp" />
@@ -974,7 +962,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="4"
+                    android:text="@string/par4"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -984,7 +972,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
@@ -1004,7 +991,7 @@
                         android:textColor="@color/colorMinus"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        tools:ignore="ButtonStyle" />
+                        tools:ignore="ButtonStyle,NestedWeights" />
 
                     <Button
                         android:id="@+id/buttonPlusHole12"
@@ -1033,7 +1020,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="13"
+                    android:text="@string/hole13"
                     android:textAlignment="center"
                     android:textColor="#006400"
                     android:textSize="24sp" />
@@ -1044,7 +1031,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="3"
+                    android:text="@string/par3"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -1054,7 +1041,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
@@ -1074,7 +1060,7 @@
                         android:textColor="@color/colorMinus"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        tools:ignore="ButtonStyle" />
+                        tools:ignore="ButtonStyle,NestedWeights" />
 
                     <Button
                         android:id="@+id/buttonPlusHole13"
@@ -1103,7 +1089,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="14"
+                    android:text="@string/hole14"
                     android:textAlignment="center"
                     android:textColor="#006400"
                     android:textSize="24sp" />
@@ -1114,7 +1100,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="4"
+                    android:text="@string/par4"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -1124,7 +1110,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
@@ -1144,7 +1129,7 @@
                         android:textColor="@color/colorMinus"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        tools:ignore="ButtonStyle" />
+                        tools:ignore="ButtonStyle,NestedWeights" />
 
                     <Button
                         android:id="@+id/buttonPlusHole14"
@@ -1173,7 +1158,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="15"
+                    android:text="@string/hole15"
                     android:textAlignment="center"
                     android:textColor="#006400"
                     android:textSize="24sp" />
@@ -1184,7 +1169,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="4"
+                    android:text="@string/par4"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -1194,7 +1179,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
@@ -1214,7 +1198,7 @@
                         android:textColor="@color/colorMinus"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        tools:ignore="ButtonStyle" />
+                        tools:ignore="ButtonStyle,NestedWeights" />
 
                     <Button
                         android:id="@+id/buttonPlusHole15"
@@ -1243,7 +1227,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="16"
+                    android:text="@string/hole16"
                     android:textAlignment="center"
                     android:textColor="#006400"
                     android:textSize="24sp" />
@@ -1254,7 +1238,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="4"
+                    android:text="@string/par4"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -1264,7 +1248,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
@@ -1284,7 +1267,7 @@
                         android:textColor="@color/colorMinus"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        tools:ignore="ButtonStyle" />
+                        tools:ignore="ButtonStyle,NestedWeights" />
 
                     <Button
                         android:id="@+id/buttonPlusHole16"
@@ -1313,7 +1296,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="17"
+                    android:text="@string/hole17"
                     android:textAlignment="center"
                     android:textColor="#006400"
                     android:textSize="24sp" />
@@ -1324,7 +1307,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="3"
+                    android:text="@string/par3"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -1334,7 +1317,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
@@ -1354,7 +1336,7 @@
                         android:textColor="@color/colorMinus"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        tools:ignore="ButtonStyle" />
+                        tools:ignore="ButtonStyle,NestedWeights" />
 
                     <Button
                         android:id="@+id/buttonPlusHole17"
@@ -1383,7 +1365,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="18"
+                    android:text="@string/hole18"
                     android:textAlignment="center"
                     android:textColor="#006400"
                     android:textSize="24sp" />
@@ -1394,7 +1376,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="4"
+                    android:text="@string/par4"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -1404,7 +1386,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
@@ -1424,7 +1405,7 @@
                         android:textColor="@color/colorMinus"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        tools:ignore="ButtonStyle" />
+                        tools:ignore="ButtonStyle,NestedWeights" />
 
                     <Button
                         android:id="@+id/buttonPlusHole18"

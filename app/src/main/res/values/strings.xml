@@ -9,4 +9,25 @@
     <string name="plus">+</string>
     <string name="minus">-</string>
     <string name="course_par">Course (Par)</string>
+    <string name="courseParTotalValue">65</string>
+    <string name="hole1">1</string>
+    <string name="par4">4</string>
+    <string name="hole2">2</string>
+    <string name="hole3">3</string>
+    <string name="par3">3</string>
+    <string name="hole4">4</string>
+    <string name="hole5">5</string>
+    <string name="hole6">6</string>
+    <string name="hole7">7</string>
+    <string name="hole8">8</string>
+    <string name="hole9">9</string>
+    <string name="hole10">10</string>
+    <string name="hole11">11</string>
+    <string name="hole12">12</string>
+    <string name="hole13">13</string>
+    <string name="hole14">14</string>
+    <string name="hole15">15</string>
+    <string name="hole16">16</string>
+    <string name="hole17">17</string>
+    <string name="hole18">18</string>
 </resources>
