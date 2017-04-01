@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         view.setTextColor(textColor);
     }
 
-    public void reset(View v) {
+    public void reset(@SuppressWarnings("UnusedParameters") View v) {
         playerTotalScore = 0;
         for (int myHoleView : myHoleScoreViews) {
             displayScoreForHole(0, myHoleView, Color.BLACK);
