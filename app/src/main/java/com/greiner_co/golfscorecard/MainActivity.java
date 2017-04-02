@@ -43,6 +43,11 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Added to save the state of the app before e.g. a switch to landscape or vice versa
+     *
+     * @param savedInstanceState is the bundle the current state is saved too
+     */
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
         // save the current state of the counters and ui
@@ -62,6 +67,11 @@ public class MainActivity extends AppCompatActivity {
         super.onSaveInstanceState(savedInstanceState);
     }
 
+    /**
+     * Part of the state saving activities
+     *
+     * @param savedInstanceState is the bundle the current state is retrieved from
+     */
     @Override
     public void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
@@ -81,17 +91,30 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Sets the players total score into the textview and displays it
+     */
     private void displayTotalForPlayer() {
         TextView totalScoreView = (TextView) findViewById(R.id.playerScoreTotal);
         totalScoreView.setText(String.valueOf(playerTotalScore));
     }
 
+    /**
+     * Sets the given text value and the given color of a given textView
+     * @param score of the current hole
+     * @param viewID represents the textView of the current
+     * @param textColor to show whether a score is above or below the par of the current hole
+     */
     private void displayScoreForHole(int score, int viewID, int textColor) {
         TextView view = (TextView) findViewById(viewID);
         view.setText(String.valueOf(score));
         view.setTextColor(textColor);
     }
 
+    /**
+     * Resets all the player score textviews and the total score textview to zero and sets the text color back to black
+     * @param v View which called this method - not used here
+     */
     public void reset(@SuppressWarnings("UnusedParameters") View v) {
         playerTotalScore = 0;
         for (int myHoleView : myHoleScoreViews) {
@@ -101,6 +124,11 @@ public class MainActivity extends AppCompatActivity {
         displayTotalForPlayer();
     }
 
+    /**
+     * Collects some data for updating the score views for a single hole and total score textView
+     * @param hole represents the current hole
+     * @param operation tells whether the user added some points or removed points to current hole
+     */
     private void updateViews(int hole, String operation) {
         hole = hole - 1;
         int textColor = Color.BLACK;
@@ -122,187 +150,94 @@ public class MainActivity extends AppCompatActivity {
         }
         displayScoreForHole(holeScore, myHoleScoreViews[hole], textColor);
         displayTotalForPlayer();
-        
+
     }
 
-    public void addForHole1(View v) {
+    /**
+     * Handle the button clickes either on plus or minus button to increase/decrease the scores per hole & total player score
+     *
+     * @param v represents the button clicked
+     */
+    public void buttonClicked(View v) {
         String operation = ((TextView) v).getText().toString();
-        updateViews(1, operation);
-    }
+        int holeNumber = 0;
 
-    public void minusForHole1(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(1, operation);
-    }
+        switch (v.getId()) {
+            case R.id.buttonPlusHole1:
+            case R.id.buttonMinusHole1:
+                holeNumber = 1;
+                break;
+            case R.id.buttonPlusHole2:
+            case R.id.buttonMinusHole2:
+                holeNumber = 2;
+                break;
+            case R.id.buttonPlusHole3:
+            case R.id.buttonMinusHole3:
+                holeNumber = 3;
+                break;
+            case R.id.buttonPlusHole4:
+            case R.id.buttonMinusHole4:
+                holeNumber = 4;
+                break;
+            case R.id.buttonPlusHole5:
+            case R.id.buttonMinusHole5:
+                holeNumber = 5;
+                break;
+            case R.id.buttonPlusHole6:
+            case R.id.buttonMinusHole6:
+                holeNumber = 6;
+                break;
+            case R.id.buttonPlusHole7:
+            case R.id.buttonMinusHole7:
+                holeNumber = 7;
+                break;
+            case R.id.buttonPlusHole8:
+            case R.id.buttonMinusHole8:
+                holeNumber = 8;
+                break;
+            case R.id.buttonPlusHole9:
+            case R.id.buttonMinusHole9:
+                holeNumber = 9;
+                break;
+            case R.id.buttonPlusHole10:
+            case R.id.buttonMinusHole10:
+                holeNumber = 10;
+                break;
+            case R.id.buttonPlusHole11:
+            case R.id.buttonMinusHole11:
+                holeNumber = 11;
+                break;
+            case R.id.buttonPlusHole12:
+            case R.id.buttonMinusHole12:
+                holeNumber = 12;
+                break;
+            case R.id.buttonPlusHole13:
+            case R.id.buttonMinusHole13:
+                holeNumber = 13;
+                break;
+            case R.id.buttonPlusHole14:
+            case R.id.buttonMinusHole14:
+                holeNumber = 14;
+                break;
+            case R.id.buttonPlusHole15:
+            case R.id.buttonMinusHole15:
+                holeNumber = 15;
+                break;
+            case R.id.buttonPlusHole16:
+            case R.id.buttonMinusHole16:
+                holeNumber = 16;
+                break;
+            case R.id.buttonPlusHole17:
+            case R.id.buttonMinusHole17:
+                holeNumber = 17;
+                break;
+            case R.id.buttonPlusHole18:
+            case R.id.buttonMinusHole18:
+                holeNumber = 18;
+                break;
+        }
 
-    public void addForHole2(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(2, operation);
-    }
-
-    public void minusForHole2(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(2, operation);
-    }
-
-    public void addForHole3(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(3, operation);
-    }
-
-    public void minusForHole3(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(3, operation);
-    }
-
-    public void addForHole4(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(4, operation);
-    }
-
-    public void minusForHole4(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(4, operation);
-    }
-
-    public void addForHole5(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(5, operation);
-    }
-
-    public void minusForHole5(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(5, operation);
-    }
-
-    public void addForHole6(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(6, operation);
-    }
-
-    public void minusForHole6(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(6, operation);
-    }
-
-    public void addForHole7(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(7, operation);
-    }
-
-    public void minusForHole7(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(7, operation);
-    }
-
-    public void addForHole8(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(8, operation);
-    }
-
-    public void minusForHole8(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(8, operation);
-    }
-
-    public void addForHole9(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(9, operation);
-    }
-
-    public void minusForHole9(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(9, operation);
-    }
-
-    public void addForHole10(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(10, operation);
-    }
-
-    public void minusForHole10(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(10, operation);
-    }
-
-    public void addForHole11(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(11, operation);
-    }
-
-    public void minusForHole11(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(11, operation);
-    }
-
-    public void addForHole12(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(12, operation);
-    }
-
-    public void minusForHole12(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(12, operation);
-    }
-
-    public void addForHole13(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(13, operation);
-    }
-
-    public void minusForHole13(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(13, operation);
-    }
-
-    public void addForHole14(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(14, operation);
-    }
-
-    public void minusForHole14(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(14, operation);
-    }
-
-    public void addForHole15(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(15, operation);
-    }
-
-    public void minusForHole15(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(15, operation);
-    }
-
-    public void addForHole16(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(16, operation);
-    }
-
-    public void minusForHole16(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(16, operation);
-    }
-
-    public void addForHole17(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(17, operation);
-    }
-
-    public void minusForHole17(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(17, operation);
-    }
-
-    public void addForHole18(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(18, operation);
-    }
-
-    public void minusForHole18(View v) {
-        String operation = ((TextView) v).getText().toString();
-        updateViews(18, operation);
+        updateViews(holeNumber, operation);
     }
 
 }
