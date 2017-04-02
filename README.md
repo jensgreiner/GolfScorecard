@@ -21,6 +21,6 @@ This project is about combining various ideas and skills we’ve been practicing
 
 And this is the result:
 
-![Golf Scorecard portrait 1](https://dl.dropboxusercontent.com/s/ff3dmgay2t31vrm/Screenshot_1491126202.png)  ![Golf Scorecard portrait 2](https://dl.dropboxusercontent.com/s/xcycsoqgo5voetg/Screenshot_1491126211.png?dl=0)
+![Golf Scorecard portrait 1](https://dl.dropboxusercontent.com/s/ff3dmgay2t31vrm/Screenshot_1491126202.png =100x)  ![Golf Scorecard portrait 2](https://dl.dropboxusercontent.com/s/xcycsoqgo5voetg/Screenshot_1491126211.png?dl=0)
 
 ![Golf Scorecard landscape](https://dl.dropboxusercontent.com/s/oqcvf5m340jfxfj/Screenshot_1491126769.png?dl=0)
