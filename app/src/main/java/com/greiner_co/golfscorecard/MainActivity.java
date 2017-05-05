@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 displayScoreForHole(myHoleValues[i], myHoleScoreViews[i], color);
             }
         } else {
-            reset(null);
+            resetScore(null);
         }
     }
 
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Sets the players total score into the textview and displays it
+     * Sets the players total score into the TextView and displays it
      */
     private void displayTotalForPlayer() {
         TextView totalScoreView = (TextView) findViewById(R.id.playerScoreTotal);
@@ -112,10 +112,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Resets all the player score textviews and the total score textview to zero and sets the text color back to black
-     * @param v View which called this method - not used here
+     * Resets all the player score TextViews and the total score TextView to zero and sets the text color back to black
      */
-    public void reset(@SuppressWarnings("UnusedParameters") View v) {
+    public void resetScore(@SuppressWarnings("UnusedParameters") View v) {
         playerTotalScore = 0;
         for (int myHoleView : myHoleScoreViews) {
             displayScoreForHole(0, myHoleView, Color.BLACK);
@@ -154,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Handle the button clickes either on plus or minus button to increase/decrease the scores per hole & total player score
+     * Handle the button click's either on plus or minus button to increase/decrease the scores per hole & total player score
      *
      * @param v represents the button clicked
      */
@@ -239,5 +238,4 @@ public class MainActivity extends AppCompatActivity {
 
         updateViews(holeNumber, operation);
     }
-
 }
