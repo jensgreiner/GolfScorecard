@@ -1,5 +1,7 @@
 # GolfScorecard
-Udacity Basic Android Scholarship EU Project Lessons 2a and 2b
+Udacity EU Scholarship Android Development for Beginners
+
+Project Lessons 2A and 2B
 
 ## Court Counter App
 
